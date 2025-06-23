@@ -52,4 +52,4 @@ node src/app.js
 Or you can run 
 npm install 
 then 
-npm run start 
+ npm run start

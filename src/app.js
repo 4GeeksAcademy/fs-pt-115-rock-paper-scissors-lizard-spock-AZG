@@ -37,6 +37,13 @@ console.log (reglas[userGuess])
     
 
 
-}
+};
 
- checkManosGuess("paper")
+ let userGuess = prompt("Elige: rock, paper, scissors, lizard o spock").toLowerCase();
+
+
+if (manos.includes(userGuess)) {
+    checkManosGuess(userGuess);
+} else {
+    console.log("Opción inválida. Recarga la página y escribe una opción válida.");
+}
